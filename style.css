@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+#child {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    width: 100%;
+    padding: 60px;
+    position: relative;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 7px 7px rgb(44, 44, 44);
+    opacity: .8;
+}
+
+#one {
+    position: absolute;
+    top: 8px;
+    left: 300px;
+    color: aliceblue;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.two {
+    position: absolute;
+    top: 8px;
+    right: 700px;
+    color: aliceblue;
+    margin-top: 97px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.two:hover{
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+
+.three {
+    position: absolute;
+    top: 8px;
+    right: 500px;
+    color: rgb(238, 240, 241);
+    margin-top: 97px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.four {
+    position: absolute;
+    top: 8px;
+    right: 390px;
+    color: rgb(238, 240, 241);
+    margin-top: 97px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.five {
+    position: absolute;
+    top: 8px;
+    right: 240px;
+    color: rgb(238, 240, 241);
+    margin-top: 97px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centre {
+    position: absolute;
+    top: 40%;
+    left: 500px;
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    position: absolute;
+    top: 55%;
+    left: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.bt1 {
+    position: absolute;
+    top: 70%;
+    left: 600px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bt2 {
+    position: absolute;
+    top: 70%;
+    left: 1000px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#face {
+    font-size: xx-large;
+    position: absolute;
+    top: 87%;
+    left: 260px;
+    color: aliceblue;
+}
+
+#twit {
+    font-size: xx-large;
+    position: absolute;
+    top: 87%;
+    left: 340px;
+    color: aliceblue;
+}
+
+#insta {
+    font-size: 35px;
+    position: absolute;
+    top: 87%;
+    left: 420px;
+    color: aliceblue;
+}
+
+.bt1:hover {
+    background-color: rgb(160, 69, 46);
+}
